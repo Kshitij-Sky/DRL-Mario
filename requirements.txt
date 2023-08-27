@@ -1,0 +1,10 @@
+gym-super-mario-bros
+nes-py
+gym
+pickle
+collections
+matplotlib
+opencv-python
+IPython
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 
+tqdm
