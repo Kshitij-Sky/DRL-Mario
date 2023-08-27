@@ -18,4 +18,7 @@ The run function is responsible for training or testing the agent. In training m
 
 Overall, the code outlines a comprehensive pipeline for training an AI agent to play "Super Mario Bros" using DQN-based reinforcement learning techniques. It incorporates various preprocessing steps and utilizes experience replay for stable and effective learning. It also facilitates saving and loading the agent's progress for continued training or testing. This code has been produced by referencing [this blog](https://blog.paperspace.com/building-double-deep-q-network-super-mario-bros/)
 
-To train a model simply comment line 416 and uncomment line 413. In order to implement DDQN instead of DQN, simply change the value of the variable double_dqn as True. For testing comment line 413 and uncomment line 416. Extra instuctions are available in the readme.txt file.
+To train a model simply comment line 416 and uncomment line 413. In order to implement DDQN instead of DQN, simply change the value of the variable double_dqn as True. For testing comment line 413 and uncomment line 416. Extra instuctions are available in the readme.txt file. Movement strategies for the agent can be configured based on gym_super_mario_bros.actions on line 142.
+
+The code can hence train 6 different agents based on 2 algorithms (DQN and DDQN) and 3 movement strategies (SIMPLE_MOVEMENT, COMPLEX_MOVEMENT, RIGHT_ONLY). The training results for 6000 epochs are as shown below.
+![results](Training Results.png)
